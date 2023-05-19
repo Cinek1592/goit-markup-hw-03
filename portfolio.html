@@ -11,7 +11,15 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
     <style>
       body {
         font-family: "Roboto", sans-serif;
@@ -20,142 +28,151 @@
     </style>
   </head>
   <body>
-    <header>
-      <a href="index.html" class="logo"><span class="web">Web</span>Studio</a>
-      <nav>
-        <ul>
-          <li><a href="index.html" class="header-link">Agencja</a></li>
-          <li><a href="portfolio.html" class="header-link">Portfolio</a></li>
-          <li><a href="#address" class="header-link">Kontakt</a></li>
-        </ul>
-      </nav>
-      <p>
-        <a href="mailto:info@devstudio.com" class="contact"
-          >info@devstudio.com</a
-        >
-      </p>
-      <p><a href="tel:+48111111111" class="contact">+48 111 111 111</a></p>
-    </header>
-    <main>
-      <section>
-        <ul>
-          <li><button type="button" class="button">Wszystkie</button></li>
-          <li><button type="button" class="button">Strony</button></li>
-          <li><button type="button" class="button">Aplikacje</button></li>
-          <li><button type="button" class="button">Dizajn</button></li>
-          <li><button type="button" class="button">Marketing</button></li>
-        </ul>
-        <div>
+    <div class="container">
+      <header>
+        <a href="index.html" class="logo"><span class="web">Web</span>Studio</a>
+        <nav>
           <ul>
-            <li>
-              <img
-                src="images/portfolio.jpg"
-                alt="strona internetowa otwarta w przeglądarce na laptopie"
-                width="370"
-                height="294"
-              />
-              <h4 class="li-tittle">Technocrack</h4>
-              <p class="li-p">Strona internetowa</p>
-            </li>
-            <li>
-              <img
-                src="images/portfolio-2.jpg"
-                alt="koszykarze podczas gry"
-                width="370"
-                height="294"
-              />
-              <h4 class="li-tittle">Grafika New Orlean vs Golden Star</h4>
-              <p class="li-p">Dizajn</p>
-            </li>
-            <li>
-              <img
-                src="images/portfolio-3.jpg"
-                alt="logo restauracji z rybą w tle"
-                width="370"
-                height="294"
-              />
-              <h4 class="li-tittle">Restauracja Seafood</h4>
-              <p class="li-p">Aplikacja</p>
-            </li>
-            <li>
-              <img
-                src="images/portfolio-4.jpg"
-                alt="słuchawki nauszne"
-                width="370"
-                height="294"
-              />
-              <h4 class="li-tittle">Projekt Prime</h4>
-              <p class="li-p">Marketing</p>
-            </li>
-            <li>
-              <img
-                src="images/portfolio-5.jpg"
-                alt="dwa kartonowe pudełka"
-                width="370"
-                height="294"
-              />
-              <h4 class="li-tittle">Projekt Boxes</h4>
-              <p class="li-p">Aplikacja</p>
-            </li>
-            <li>
-              <img
-                src="images/portfolio-6.jpg"
-                alt="otwarta w przeglądarce strona z mapą ziemii wyświetlona na monitorze"
-                width="370"
-                height="294"
-              />
-              <h4 class="li-tittle">Inspiration has no Borders</h4>
-              <p class="li-p">Strona internetowa</p>
-            </li>
-            <li>
-              <img
-                src="images/portfolio-7.jpg"
-                alt="otwarta strona gazety- magazynu dla kobiet"
-                width="370"
-                height="294"
-              />
-              <h4 class="li-tittle">Magazyn Limited Edition</h4>
-              <p class="li-p">Dizajn</p>
-            </li>
-            <li>
-              <img
-                src="images/portfolio-8.jpg"
-                alt="zawieszka produktu odzieżowego ze złotym sznurkiem "
-                width="370"
-                height="294"
-              />
-              <h4 class="li-tittle">Projekt LAB</h4>
-              <p class="li-p">Marketing</p>
-            </li>
-            <li>
-              <img
-                src="images/portfolio-9.jpg"
-                alt="mężczyzna piszący na laptopie"
-                width="370"
-                height="294"
-              />
-              <h4 class="li-tittle">Growing Business</h4>
-              <p class="li-p">Aplikacja</p>
-            </li>
+            <li><a href="index.html" class="header-link">Agencja</a></li>
+            <li><a href="portfolio.html" class="header-link">Portfolio</a></li>
+            <li><a href="#address" class="header-link">Kontakt</a></li>
           </ul>
-        </div>
-      </section>
-    </main>
-    <footer class="end-page">
-      <a href="index.html" class="logo"
-        ><span class="web">Web</span><span class="footer-logo">Studio</span></a
-      >
-      <address id="address" class="address-font">
-        <p class="addres-st">m. Warszawa, Aleje Jerozolimskie 21</p>
+        </nav>
         <p>
-          <a href="mailto:info@example.com" class="contact-footer"
-            >info@example.com</a
+          <a href="mailto:info@devstudio.com" class="contact"
+            >info@devstudio.com</a
           >
         </p>
-        <p>
-          <a href="tel:+48111111111" class="contact-footer">+48 111 111 111</a>
-        </p>
-      </address>
-    </footer>
+        <p><a href="tel:+48111111111" class="contact">+48 111 111 111</a></p>
+      </header>
+    </div>
+    <div class="container">
+      <main>
+        <section>
+          <ul>
+            <li><button type="button" class="button">Wszystkie</button></li>
+            <li><button type="button" class="button">Strony</button></li>
+            <li><button type="button" class="button">Aplikacje</button></li>
+            <li><button type="button" class="button">Dizajn</button></li>
+            <li><button type="button" class="button">Marketing</button></li>
+          </ul>
+          <div>
+            <ul>
+              <li>
+                <img
+                  src="images/portfolio.jpg"
+                  alt="strona internetowa otwarta w przeglądarce na laptopie"
+                  width="370"
+                  height="294"
+                />
+                <h4 class="li-tittle">Technocrack</h4>
+                <p class="li-p">Strona internetowa</p>
+              </li>
+              <li>
+                <img
+                  src="images/portfolio-2.jpg"
+                  alt="koszykarze podczas gry"
+                  width="370"
+                  height="294"
+                />
+                <h4 class="li-tittle">Grafika New Orlean vs Golden Star</h4>
+                <p class="li-p">Dizajn</p>
+              </li>
+              <li>
+                <img
+                  src="images/portfolio-3.jpg"
+                  alt="logo restauracji z rybą w tle"
+                  width="370"
+                  height="294"
+                />
+                <h4 class="li-tittle">Restauracja Seafood</h4>
+                <p class="li-p">Aplikacja</p>
+              </li>
+              <li>
+                <img
+                  src="images/portfolio-4.jpg"
+                  alt="słuchawki nauszne"
+                  width="370"
+                  height="294"
+                />
+                <h4 class="li-tittle">Projekt Prime</h4>
+                <p class="li-p">Marketing</p>
+              </li>
+              <li>
+                <img
+                  src="images/portfolio-5.jpg"
+                  alt="dwa kartonowe pudełka"
+                  width="370"
+                  height="294"
+                />
+                <h4 class="li-tittle">Projekt Boxes</h4>
+                <p class="li-p">Aplikacja</p>
+              </li>
+              <li>
+                <img
+                  src="images/portfolio-6.jpg"
+                  alt="otwarta w przeglądarce strona z mapą ziemii wyświetlona na monitorze"
+                  width="370"
+                  height="294"
+                />
+                <h4 class="li-tittle">Inspiration has no Borders</h4>
+                <p class="li-p">Strona internetowa</p>
+              </li>
+              <li>
+                <img
+                  src="images/portfolio-7.jpg"
+                  alt="otwarta strona gazety- magazynu dla kobiet"
+                  width="370"
+                  height="294"
+                />
+                <h4 class="li-tittle">Magazyn Limited Edition</h4>
+                <p class="li-p">Dizajn</p>
+              </li>
+              <li>
+                <img
+                  src="images/portfolio-8.jpg"
+                  alt="zawieszka produktu odzieżowego ze złotym sznurkiem "
+                  width="370"
+                  height="294"
+                />
+                <h4 class="li-tittle">Projekt LAB</h4>
+                <p class="li-p">Marketing</p>
+              </li>
+              <li>
+                <img
+                  src="images/portfolio-9.jpg"
+                  alt="mężczyzna piszący na laptopie"
+                  width="370"
+                  height="294"
+                />
+                <h4 class="li-tittle">Growing Business</h4>
+                <p class="li-p">Aplikacja</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+    </div>
+    <div class="container">
+      <footer class="end-page">
+        <a href="index.html" class="logo"
+          ><span class="web">Web</span
+          ><span class="footer-logo">Studio</span></a
+        >
+        <address id="address" class="address-font">
+          <p class="addres-st">m. Warszawa, Aleje Jerozolimskie 21</p>
+          <p>
+            <a href="mailto:info@example.com" class="contact-footer"
+              >info@example.com</a
+            >
+          </p>
+          <p>
+            <a href="tel:+48111111111" class="contact-footer"
+              >+48 111 111 111</a
+            >
+          </p>
+        </address>
+      </footer>
+    </div>
   </body>
 </html>
