@@ -5,6 +5,7 @@
   line-height: 1.19;
   color: #000000;
   text-decoration: none;
+  padding: 60px 1240px 20px 15px;
 }
 .web {
   color: #2196f3;
@@ -173,11 +174,10 @@
 .classes > ul > li {
   list-style-type: none;
 }
-.team-body > div > ul > li {
-  list-style-type: none;
-}
 .team-photo {
-  width: 1600px;
+  list-style-type: none;
   display: inline-flex;
   gap: 30px;
+  margin: 0 auto;
+  padding: 0px 215px 94px 215px;
 }
