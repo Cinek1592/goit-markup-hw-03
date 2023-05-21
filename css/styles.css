@@ -85,7 +85,9 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
+  padding-left: 695px;
 }
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -99,6 +101,7 @@
 .team-body {
   background: #f5f4fa;
   white-space: normal;
+  width: 1600px;
 }
 .end-page {
   background: #2f303a;
@@ -170,6 +173,11 @@
 .classes > ul > li {
   list-style-type: none;
 }
-.team-body > ul > li {
+.team-body > div > ul > li {
   list-style-type: none;
+}
+.team-photo {
+  width: 1600px;
+  display: inline-flex;
+  gap: 30px;
 }
