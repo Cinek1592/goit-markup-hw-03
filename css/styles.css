@@ -35,25 +35,38 @@
   cursor: pointer;
   background-color: #2196f3;
   -webkit-text-fill-color: #ffffff;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  border-radius: 4px;
+  margin: 0px 700px 0px 700px;
 }
 .heading {
   background: #2f303a;
-  width: 1600px;
   height: 600px;
+  width: 1600px;
+  top: 80px;
 }
 .heading-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
+  line-height: 1.16;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  text-align: center;
+  padding: 200px 452px 0 452px;
 }
+
 .li-paragraph {
   color: #757575;
   font-size: 14px;
   line-height: 1.7;
+
+  width: 270px;
+  left: 215px;
+  top: 800px;
 }
 
 .address-font {
@@ -63,6 +76,12 @@
   color: #ffffff;
 }
 .heading-2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  padding-left: 409px;
+}
+.heading-3 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -109,4 +128,48 @@
   font-size: 16px;
   line-height: 1.87;
   color: #757575;
+}
+
+/* homework 3 */
+
+.nav-li {
+  list-style-type: none;
+}
+
+.container {
+  width: 1200px;
+}
+
+.logo-h {
+  padding-left: 215px;
+  width: 145px;
+  height: 31px;
+}
+.main-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 1170px;
+  margin: 94px 215px 94px 215px;
+}
+.main-list > .li {
+  height: 101px;
+  max-width: 270px;
+  left: 515px;
+  top: 774px;
+}
+.classes {
+  width: 1170px;
+  margin: 0 200px 0 200px;
+}
+.classes-li {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.classes > ul > li {
+  list-style-type: none;
+}
+.team-body > ul > li {
+  list-style-type: none;
 }

@@ -1,5 +1,12 @@
 .container {
   width: 1200px;
-  padding-top: 94px;
-  padding-bottom: 94px;
+}
+
+.logo-h {
+  padding-left: 215px;
+  width: 145px;
+  height: 31px;
+}
+.nav-li {
+  text-decoration: none;
 }
