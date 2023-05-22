@@ -32,32 +32,37 @@
 .contact-footer:focus {
   color: #2196f3;
 }
+.button-pos {
+  padding: 30px 500px 200px 500px;
+}
 .button-order {
   cursor: pointer;
   background-color: #2196f3;
   -webkit-text-fill-color: #ffffff;
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
   border-radius: 4px;
-  margin: 0px 700px 0px 700px;
+  text-align: center;
 }
 .heading {
   background: #2f303a;
   height: 600px;
-  width: 1600px;
-  top: 80px;
+  margin: 0 auto;
+  max-width: 1600px;
+  padding: 200px 0;
 }
 .heading-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.16;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+
+  max-width: 696px;
   text-align: center;
-  padding: 200px 452px 0 452px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .li-paragraph {
@@ -80,15 +85,8 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  padding-left: 409px;
+  text-align: center;
 }
-.heading-3 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  padding-left: 695px;
-}
-
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -102,7 +100,6 @@
 .team-body {
   background: #f5f4fa;
   white-space: normal;
-  width: 1600px;
 }
 .end-page {
   background: #2f303a;
@@ -142,6 +139,7 @@
 
 .container {
   width: 1200px;
+  margin: 0 auto;
 }
 
 .logo-h {
@@ -154,7 +152,6 @@
   list-style-type: none;
   justify-content: space-around;
   width: 1170px;
-  margin: 94px 215px 94px 215px;
 }
 .main-list > .li {
   height: 101px;
@@ -163,8 +160,7 @@
   top: 774px;
 }
 .classes {
-  width: 1170px;
-  margin: 0 200px 0 200px;
+  margin: 94px 15px 94px 15px;
 }
 .classes-li {
   display: flex;
@@ -179,5 +175,4 @@
   display: inline-flex;
   gap: 30px;
   margin: 0 auto;
-  padding: 0px 215px 94px 215px;
 }
