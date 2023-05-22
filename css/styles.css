@@ -5,7 +5,6 @@
   line-height: 1.19;
   color: #000000;
   text-decoration: none;
-  padding: 60px 1240px 20px 15px;
 }
 .web {
   color: #2196f3;
@@ -77,6 +76,9 @@
 
 .address-font {
   font-style: normal;
+  padding: 0px 938px 60px 15px;
+  font-size: 14px;
+  line-height: 1.7;
 }
 .addres-st {
   color: #ffffff;
@@ -103,8 +105,21 @@
 }
 .end-page {
   background: #2f303a;
+  width: 1600px;
+  height: 252px;
+  display: flex;
+  margin: auto;
 }
 .footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+  text-decoration: none;
+  padding: 60px 1040px 20px 15px;
+}
+.footer-studio {
   color: #ffffff;
 }
 .button {
@@ -130,7 +145,19 @@
   line-height: 1.87;
   color: #757575;
 }
-
+.team-description {
+  background: #ffffff;
+  white-space: nowrap;
+  row-gap: 10px;
+  align-content: center;
+}
+.team-list {
+  width: 270px;
+  height: 368px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
 /* homework 3 */
 
 .nav-li {
@@ -140,12 +167,6 @@
 .container {
   width: 1200px;
   margin: 0 auto;
-}
-
-.logo-h {
-  padding-left: 215px;
-  width: 145px;
-  height: 31px;
 }
 .main-list {
   display: flex;
@@ -165,6 +186,7 @@
 .classes-li {
   display: flex;
   justify-content: center;
+  padding-inline-start: 0px;
   gap: 30px;
 }
 .classes > ul > li {
@@ -173,6 +195,15 @@
 .team-photo {
   list-style-type: none;
   display: inline-flex;
-  gap: 30px;
   margin: 0 auto;
+  gap: 30px;
+  column-gap: 30px;
+  padding: 0px 215px 94px 15px;
+}
+
+/* header */
+.logo-h {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
 }
