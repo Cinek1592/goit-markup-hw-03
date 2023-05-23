@@ -38,7 +38,7 @@
   color: #2196f3;
 }
 .button-pos {
-  padding: 30px 500px 200px 500px;
+  padding: 30px 700px 200px 700px;
 }
 .button-order {
   cursor: pointer;
@@ -94,6 +94,7 @@
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
+  padding-top: 94px;
 }
 .team-name {
   font-weight: 500;
@@ -108,6 +109,8 @@
 .team-body {
   background: #f5f4fa;
   white-space: normal;
+  margin-top: 94px;
+  width: 1600px;
 }
 .end-page {
   background: #2f303a;
@@ -184,7 +187,8 @@
   display: flex;
   list-style-type: none;
   justify-content: space-around;
-  width: 1170px;
+  padding-inline-start: 0;
+  margin: 94px 0 94px 0;
 }
 .main-list > .li {
   height: 101px;
@@ -200,6 +204,7 @@
   justify-content: center;
   padding-inline-start: 0px;
   gap: 30px;
+  margin-top: 50px;
 }
 .classes > ul > li {
   list-style-type: none;
@@ -210,7 +215,8 @@
   margin: 0 auto;
   gap: 30px;
   column-gap: 30px;
-  padding: 0px 215px 94px 15px;
+  margin-top: 50px;
+  padding: 0 215px 94px 15px;
 }
 
 /* header */
