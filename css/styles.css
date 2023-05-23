@@ -12,6 +12,12 @@
 .header-link {
   color: #212121;
   text-decoration: none;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 .header-link:hover,
 .header-link:focus {
@@ -162,8 +168,14 @@
 
 .nav-li {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 46px;
+  padding: 32px 0 32px 93px;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
-
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -206,4 +218,18 @@
   display: flex;
   align-items: center;
   margin-left: 15px;
+}
+.position-header {
+  display: flex;
+  flex-direction: row;
+}
+.menu-nav {
+  display: block;
+}
+.adress-header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  padding-left: 371px;
+  align-items: center;
 }
