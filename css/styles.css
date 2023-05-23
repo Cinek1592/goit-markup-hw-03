@@ -112,6 +112,7 @@
   white-space: normal;
   margin-top: 94px;
   width: 1600px;
+  margin: auto;
 }
 .end-page {
   background: #2f303a;
@@ -238,4 +239,34 @@
   gap: 50px;
   padding-left: 371px;
   align-items: center;
+}
+
+/* portfolio */
+
+.button-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+.button-port {
+  border: none;
+  font-weight: 500;
+  line-height: 1.6;
+  padding: 6px 22px 6px 22px;
+  border-radius: 4px;
+}
+.button-port:hover,
+.button-port:focus {
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #2196f3;
+  -webkit-text-fill-color: #ffffff;
+  border-style: none;
+  box-shadow: 0px 2px 2px 0px #0000001f;
+
+  box-shadow: 0px 1px 2px 0px #00000014;
+
+  box-shadow: 0px 3px 1px 0px #0000001a;
 }
