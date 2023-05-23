@@ -265,8 +265,13 @@
   -webkit-text-fill-color: #ffffff;
   border-style: none;
   box-shadow: 0px 2px 2px 0px #0000001f;
-
   box-shadow: 0px 1px 2px 0px #00000014;
-
   box-shadow: 0px 3px 1px 0px #0000001a;
+}
+.port-photo-li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style-type: none;
+  justify-content: center;
 }
