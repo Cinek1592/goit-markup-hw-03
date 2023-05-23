@@ -95,6 +95,7 @@
   line-height: 1.2;
   text-align: center;
   padding-top: 94px;
+  margin-block-end: 0;
 }
 .team-name {
   font-weight: 500;
@@ -215,8 +216,7 @@
   margin: 0 auto;
   gap: 30px;
   column-gap: 30px;
-  margin-top: 50px;
-  padding: 0 215px 94px 15px;
+  padding: 50px 215px 94px 215px;
 }
 
 /* header */
